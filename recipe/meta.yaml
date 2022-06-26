@@ -10,7 +10,7 @@ source:
   sha256: e63e6a38f920bbb85f1f8fdff2da5ec195a3f2ded354f6f09cf68cf69785b59d
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win]
   script: {{ PYTHON }} -m pip install sktools/ -vv --no-deps
 
