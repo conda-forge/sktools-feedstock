@@ -20,6 +20,7 @@ requirements:
     - python
   run:
     - numpy
+    - scipy
     - python
 
 test:
