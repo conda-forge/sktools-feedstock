@@ -3,7 +3,7 @@
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://github.com/dftbplus/skprogs/archive/refs/tags/{{ version }}.tar.gz
